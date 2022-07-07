@@ -41,7 +41,7 @@ class UI {
     addedbook.innerHTML = `
     <div class = " text ">
     <div class="texts">
-        <p >${book.title}</p>
+        <p >"${book.title}" by </p>
         <p>${book.author}</p>
         </div>
         <button type="submit" class="delete">Remove</button>
