@@ -121,3 +121,49 @@ h1 {
   margin-left: 45%;
   margin-right: 45%;
 }
+.navbar {
+  border: 2px solid black;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-left: 2rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.nav-item a {
+  color: black;
+  font-weight: 600;
+}
+.nav-item a:hover,
+.nav-item a:focus {
+  color: dodgerblue;
+}
+
+.navbar ul li:first-child,
+.navbar ul li:nth-child(2) {
+  border-right: 1px solid black;
+}
+#contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  background-color: wheat;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 50rem;
+}
