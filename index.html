@@ -6,38 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Awesome Books</title>
   </head>
+  <link rel="stylesheet" href="style.css" />
   <body>
-    <div>
-      <header>
-        <h1>Awesome books</h1>
-      </header>
-    </div>
-    <div class="book-container"></div>
-    <section>
-      <form id="book-form">
-        <div class="form-group">
-          <input
-            type="text"
-            id="title"
-            class="form-control"
-            placeholder="Title"
-          />
-        </div>
-        <div class="form-group">
-          <input
-            type="text"
-            id="author"
-            class="form-control"
-            placeholder="Author"
-          />
-        </div>
-        <button class="btn-submit" type="submit">Add</button>
-      </form>
-    </section>
+    <div class="wrapper">
+      <div>
+        <header class="header">
+          <h1 class="title">All Awesome books</h1>
+        </header>
+      </div>
+      <div class="book-container"></div>
+      <section>
+        <h2 class="form-title">Add a new book</h2>
+        <form id="book-form">
+          <div class="form-group">
+            <input
+              type="text"
+              id="title"
+              class="form-control"
+              placeholder="Title"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              id="author"
+              class="form-control"
+              placeholder="Author"
+            />
+            <button class="btn-submit" type="submit">Add</button>
+          </div>
+        </form>
+      </section>
 
-    <footer>
-      <h3>CopyRight © 2022 Kyrillos Hany</h3>
-    </footer>
+      <footer>
+        <h3>CopyRight © 2022 Kyrillos Hany</h3>
+      </footer>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

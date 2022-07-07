@@ -1,3 +1,35 @@
 body {
-  margin: 10px;
+  box-sizing: border-box;
+  background-color: #979797;
+}
+
+.wrapper {
+  margin: 1rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.book-container {
+  display: block;
+  padding: 1rem;
+  border: 3px solid #1a1a1a;
+  width: auto;
+  background-color: white;
+}
+
+.books-list {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  width: 100%;
+}
+
+.books-list button {
+  width: 80px;
+  height: 30px;
+  border: 3px solid #1a1a1a;
 }
