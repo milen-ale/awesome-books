@@ -167,3 +167,22 @@ h1 {
   margin-right: 30px;
   height: 50rem;
 }
+
+#contact-us h4 {
+  color: black;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+footer {
+  border: 1px solid black;
+  height: 6rem;
+  padding: 1.5rem;
+  margin-top: auto;
+  background-color: #f8f9fa;
+  margin-bottom: auto;
+}
+footer h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
