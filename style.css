@@ -1,0 +1,203 @@
+body {
+  box-sizing: border-box;
+  background-color: #979797;
+  padding: 2.4rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  font-weight: 700;
+}
+
+.header {
+  width: 80rem;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.book-container {
+  display: block;
+  padding: 1rem;
+  border: 3px solid #1a1a1a;
+  width: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: white;
+}
+
+.books-list {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  width: 100%;
+}
+
+.form-control {
+  height: 40px;
+}
+
+.books-list button {
+  width: 80px;
+  height: 30px;
+  border: 3px solid #1a1a1a;
+}
+
+.title {
+  text-align: center;
+  margin-top: 2.4rem;
+  margin-bottom: 1.8rem;
+  font-size: 4rem;
+}
+
+.delete {
+  padding: 0.4rem;
+  border: 2px solid #000;
+  background: #fff;
+  font-weight: 700;
+  box-shadow: 0.4rem 0.2rem 0.2rem #000;
+  z-index: 9;
+  margin-left: auto;
+  display: flex;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.form-group {
+  width: 30rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  margin-bottom: 2.4rem;
+  border-color: gray;
+}
+
+.texts {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0;
+  font-size: 15px;
+  padding: 1rem;
+  position: absolute;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 6.4rem;
+  margin-top: 3.6rem;
+  font-size: 3.5rem;
+}
+
+.btn-submit {
+  align-self: flex-end;
+  background: none;
+  border: 2px solid #000;
+  font-weight: 700;
+  box-shadow: 0.4rem 0.2rem 0.2rem #000;
+  padding: 0.4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.divider {
+  color: black;
+  margin-top: 1.5rem;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+
+.navbar {
+  border: 2px solid black;
+}
+
+.navbar-brand a {
+  text-decoration: none;
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 600;
+  padding-left: 2rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  list-style: none;
+  font-size: 2rem;
+}
+
+.nav-item a {
+  color: black;
+  font-weight: 600;
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+  color: dodgerblue;
+}
+
+.navbar ul li:first-child,
+.navbar ul li:nth-child(2) {
+  border-right: 1px solid black;
+}
+
+#contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+  background-color: wheat;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 50rem;
+}
+
+#contact-us h4 {
+  color: black;
+  font-size: 35px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+footer {
+  border: 1px solid black;
+  position: fixed;
+  background-color: #f8f9fa;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  height: 6rem;
+  padding: 1.5rem;
+}
+
+footer h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.list-form {
+  display: none;
+}
