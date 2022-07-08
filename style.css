@@ -124,6 +124,7 @@ h1 {
   margin-left: 45%;
   margin-right: 45%;
 }
+
 .navbar {
   border: 2px solid black;
 }
@@ -146,6 +147,7 @@ h1 {
   color: black;
   font-weight: 600;
 }
+
 .nav-item a:hover,
 .nav-item a:focus {
   color: dodgerblue;
@@ -155,6 +157,7 @@ h1 {
 .navbar ul li:nth-child(2) {
   border-right: 1px solid black;
 }
+
 #contact-us {
   display: flex;
   justify-content: center;
@@ -177,6 +180,7 @@ h1 {
   font-weight: 400;
   margin-bottom: 25px;
 }
+
 footer {
   border: 1px solid black;
   position: fixed;
@@ -194,6 +198,6 @@ footer h3 {
   font-weight: 600;
 }
 
-#list-form {
+.list-form {
   display: none;
 }
