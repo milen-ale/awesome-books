@@ -23,6 +23,9 @@ html {
 
 .wrapper {
   margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 h1 {
@@ -176,13 +179,21 @@ h1 {
 }
 footer {
   border: 1px solid black;
+  position: fixed;
+  background-color: #f8f9fa;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
   height: 6rem;
   padding: 1.5rem;
-  margin-top: auto;
-  background-color: #f8f9fa;
-  margin-bottom: auto;
 }
+
 footer h3 {
   font-size: 20px;
   font-weight: 600;
+}
+
+#list-form {
+  display: none;
 }
